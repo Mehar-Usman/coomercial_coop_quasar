@@ -17,7 +17,7 @@
       <q-btn round dense flat color="black" icon="person" size="33px"/>
     </div>
   </div>
-  <q-space></q-space>"
+  <q-space></q-space>
 <MessageItem ref="child" @parentMethod="ParentEvent" :messages="messages"/>
 <q-btn @click="$refs.child.childEvent()" color="primary">ParentBtn</q-btn>
 <q-btn @click="useRef" color="primary">Using Ref</q-btn>

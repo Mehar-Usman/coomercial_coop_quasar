@@ -17,7 +17,6 @@ const routes = [
       {path:'verify2', component: () => import ('pages/verify2.vue')},
       {path:'messageBoard1', component: () => import ('pages/messageBoard.vue')},
       // {path:'messageBoard2', component: () => import ('pages/messageBoard2.vue')},
-
     ]
   },
   {
@@ -27,6 +26,16 @@ const routes = [
       {path:'messageBoard2', component: () => import ('pages/messageBoard2.vue')},
       {path:'agentProfile', component: () => import ('pages/agentProfile.vue')},
       {path:'message1', component: () => import ('pages/message1.vue')},
+      {path:'/crud', component: () => import ('pages/crud.vue')},
+      {path:'/test', component: () => import ('pages/Test.vue')}
+    ]
+  },
+  {
+    path:'/newLayout/',
+    component: () => import('layouts/layoutPractice.vue'),
+    children: [
+      {path:'layout1', component: () => import ('pages/layout1.vue')},
+
     ]
   },
 

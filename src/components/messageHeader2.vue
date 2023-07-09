@@ -27,8 +27,8 @@
     <div class="col-xs-3 flex justify-end q-mb-md">
       <q-icon name="tune" size="50px" class="bg-negative text-white flex justify-center q-pa-sm rounded-borders"
               style="border-radius: 40px">
-        <div class="q-pa-md ">
-          <q-menu>
+        <div class="q-pa-md  " style="width: 200px">
+          <q-menu class="flex justify-center">
             <div class="row q-pa-md ">
               <div class="col-12">
                 <div class="text-h6 q-mb-md">Search Filters</div>

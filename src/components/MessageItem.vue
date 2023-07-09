@@ -25,7 +25,6 @@
     </q-item>
   </div>
 </template>
-
 <script>
 export default {
   name: 'MessageItem',
